@@ -3,35 +3,31 @@
   "version": "1.4.7-1",
   "description": "Common Eslint rules for Legacy projects of Chantelle",
   "main": "./index.js",
-  "license": "MIT",
+  "sideEffects": false,
+  "license": "Apache-2.0",
   "dependencies": {
-    "babel-eslint": "^8.0.3"
-  },
-  "devDependencies": {
-    "@chantelle/eslint-config-chantelle-commonjs": "^1.4.7-1",
-    "eslint": "^4.11.0",
-    "eslint-config-cleanjs": "^4.0.0",
-    "eslint-config-react-app": "^2.0.1",
-    "eslint-plugin-babel": "^4.1.2",
-    "eslint-plugin-better": "^0.1.5",
-    "eslint-plugin-flowtype": "^2.39.1",
-    "eslint-plugin-fp": "^2.3.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jest": "^21.4.2",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-prettier": "^2.3.1",
-    "eslint-plugin-react": "^7.5.1",
-    "flow-bin": "^0.66.0",
-    "flow-runtime": "^0.17.0",
-    "flow-typed": "^2.3.0",
-    "husky": "^0.14.3",
-    "nodemon": "^1.12.1",
-    "prettier": "^1.8.2"
+    "@chantelle/eslint-plugin-chantelle": "^1.4.7-1"
   },
   "peerDependencies": {
-    "eslint": "^4.11.0",
-    "eslint-plugin-prettier": "^2.3.1",
-    "prettier": "^1.8.2"
+    "eslint": "^5.0.1",
+    "babel-eslint": "^8.2.6",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-cleanjs": "^4.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-better": "^0.1.5",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-fp": "^2.3.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^21.18.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.10.0",
+    "prettier": "^1.14.0"
+  },
+  "devDependencies": {
+    "@chantelle/eslint-config-chantelle-commonjs": "1.4.7-1"
   },
   "repository": {
     "type": "git",
@@ -39,15 +35,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "@chantelle/chantelle-commonjs"
-    ]
-  },
-  "eslintIgnore": [
-    "node_modules"
-  ],
-  "babel": {
-    "presets": [
-      "@chantelle/chantelle"
+      "@chantelle/eslint-config-chantelle-commonjs"
     ]
   }
 }

@@ -1,6 +1,5 @@
 {
   "name": "@nod/eslint-config-legacy",
-  "private": true,
   "version": "2.0.1",
   "description": "Common Eslint rules for less strict projects",
   "main": "./index.js",

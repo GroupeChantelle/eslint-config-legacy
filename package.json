@@ -1,13 +1,13 @@
 {
   "name": "@nod/eslint-config-legacy",
   "private": true,
-  "version": "2.0.1-0",
+  "version": "2.0.1",
   "description": "Common Eslint rules for less strict projects",
   "main": "./index.js",
   "sideEffects": false,
   "license": "Apache-2.0",
   "dependencies": {
-    "@nod/eslint-plugin-nod": "^2.0.1-0"
+    "@nod/eslint-plugin-nod": "^2.0.1"
   },
   "peerDependencies": {
     "babel-eslint": "^8.2.6",
@@ -28,7 +28,7 @@
     "prettier": "^1.14.0"
   },
   "devDependencies": {
-    "@nod/eslint-config-nod-commonjs": "^2.0.1-0"
+    "@nod/eslint-config-nod-commonjs": "^2.0.1"
   },
   "repository": {
     "type": "git",

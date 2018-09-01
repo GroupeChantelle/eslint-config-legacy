@@ -1,4 +1,4 @@
-const { legacy: legacyConfig } = require('@chantelle/eslint-plugin-chantelle')
+const { legacy: legacyConfig } = require('@nod/eslint-plugin-nod')
 
 const { globals, rules, ...config } = legacyConfig
 const safeObject = object => object || {}
@@ -9,8 +9,8 @@ module.exports = {
     rules: {
       ...safeObject(rules),
       ...{
-        radix: 0,
-      },
+        radix: 0
+      }
     },
     globals: {
       ...safeObject(globals),
@@ -49,8 +49,8 @@ module.exports = {
         defaultBillingRegion: true,
         countryRegions: true,
         defaultShippingRegion: true,
-        link: true,
-      },
-    },
-  },
+        link: true
+      }
+    }
+  }
 }

@@ -40,5 +40,6 @@
     "extends": [
       "@nod/eslint-config-nod-commonjs"
     ]
-  }
+  },
+  "gitHead": "e13d846b9010af905d06085a891d932d5fd92312"
 }

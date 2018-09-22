@@ -30,7 +30,7 @@
     "prettier": "^1.14.0"
   },
   "devDependencies": {
-    "@nod/eslint-config-nod-commonjs": "^4.0.2"
+    "@nod/eslint-config-commonjs": "^4.0.2"
   },
   "repository": {
     "type": "git",
@@ -38,7 +38,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "@nod/eslint-config-nod-commonjs"
+      "@nod/eslint-config-commonjs"
     ]
   },
   "gitHead": "e13d846b9010af905d06085a891d932d5fd92312"

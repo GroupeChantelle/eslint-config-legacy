@@ -17,7 +17,7 @@
     "eslint-config-airbnb": "^17.0.0",
     "eslint-config-cleanjs": "^4.0.0",
     "eslint-config-prettier": "^2.9.0",
-    "eslint-config-react-app": "^2.1.0",
+    "eslint-config-react-app": "^3.0.3",
     "eslint-plugin-babel": "^5.1.0",
     "eslint-plugin-better": "^0.1.5",
     "eslint-plugin-flowtype": "^2.50.0",
@@ -30,16 +30,13 @@
     "prettier": "^1.14.0"
   },
   "devDependencies": {
-    "@nod/eslint-config-commonjs": "^4.0.3"
+    "@nod/babel-preset-nod": "^4.0.3",
+    "@nod/eslint-config-commonjs": "^4.0.3",
+    "@nod/jest-config": "^4.0.3"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com:NOD-studios/eslint-config-legacy.git"
-  },
-  "eslintConfig": {
-    "extends": [
-      "@nod/eslint-config-commonjs"
-    ]
   },
   "gitHead": "e13d846b9010af905d06085a891d932d5fd92312"
 }

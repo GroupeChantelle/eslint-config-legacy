@@ -1,8 +1,8 @@
-/* eslint no-unused-expressions:0, better/explicit-return:0, fp/no-nil:0, fp/no-mutation:0, import/no-commonjs:0, fp/no-unused-expression:0 */
+import { parserOptions, plugins, rules } from './index'
 
-const { parserOptions, plugins, rules } = require('./index')
+const name = '@nod/eslint-config-legacy'
 
-describe('@nod/eslint-config-legacy', () => {
+describe(name, () => {
   test('contains parserOptions', () => {
     expect(Object.keys(parserOptions).length > 0).toBeTruthy()
   })
